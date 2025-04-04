@@ -3,7 +3,7 @@
 // URL: https://api.remini.ai/v1/mobile/oracle/setup
 
 [rewrite_local]
-^https:\/\/api\.remini\.ai\/v1\/mobile\/oracle\/setup url script-response-body https://raw.githubusercontent.com/dungle03/rewrite/refs/heads/master/remini.js
+https://api.remini.ai/v1/mobile/oracle/setup url script-response-body https://raw.githubusercontent.com/dungle03/rewrite/master/remini.js
 
 [mitm] 
 hostname = api.remini.ai 
